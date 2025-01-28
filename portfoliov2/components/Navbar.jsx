@@ -1,3 +1,4 @@
+import {assets} from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
@@ -6,7 +7,7 @@ const Navbar = () => {
     <>
     <nav>
         <a href="">
-            <Image src={} />
+            <Image src={assets.logo} className='w-28 cursor-pointer mr-14' alt='Logo-name'/>
         </a>
     </nav></>
   )
