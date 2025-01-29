@@ -35,8 +35,13 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import un from './un.png';
+import un_dark from './un-dark.png';
+
 
 export const assets = {
+    un,
+    un_dark,
     user_image,
     code_icon,
     code_icon_dark,
