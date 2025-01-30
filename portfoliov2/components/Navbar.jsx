@@ -11,15 +11,15 @@ const Navbar = () => {
         </a>
 
         <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3'>
-            <li><a href="#top"></a>Home</li>
-            <li><a href="#about"></a>About me</li>
-            <li><a href="#services"></a>Services</li>
-            <li><a href="#work"></a>My Work</li>
-            <li><a href="#contact"></a>Contact me</li>
+            <li><a className='font-Ovo' href="#top">Home</a></li>
+            <li><a className='font-Ovo' href="#about">About me</a></li>
+            <li><a className='font-Ovo' href="#services">Services</a></li>
+            <li><a className='font-Ovo' href="#work">My Work</a></li>
+            <li><a className='font-Ovo' href="#contact">Contact me</a></li>
         </ul>
 
         <div>
-            <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4'>Contact <Image src={assets.arrow_icon} alt='contactimg' className='w-3'/></a>
+            <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo'>Contact <Image src={assets.arrow_icon} alt='contactimg' className='w-3'/></a>
         </div>
     </nav></>
   )
