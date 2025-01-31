@@ -36,7 +36,7 @@ const About = () => {
                         ))}
                    </ul>
                    
-                   <h4>Tools I use</h4>
+                   <h4 className='my-6 text-gray-700 font-Ovo'>Tools I use</h4>
 
                    <ul>
                     {toolsData.map((tool, index) => (

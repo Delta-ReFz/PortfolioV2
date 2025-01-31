@@ -37,9 +37,13 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import un from './un.png';
 import un_dark from './un-dark.png';
+import image3 from './image3.png';
+import image9 from './image9.png';
 
 
 export const assets = {
+    image3,
+    image9,
     un,
     un_dark,
     user_image,
