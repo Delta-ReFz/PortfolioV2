@@ -19,7 +19,7 @@ const
                                     <Image src={icon} alt='' className='w-10 mx-auto'/>
                                     <h3 className='text-lg my-4 text-gray-700 text-center'>{title}</h3>
                                     <p className='text-sm text-gray-600 leading-5'>{description}</p>
-                                    <a className='flex items-center gap-2 text-sm mt-5' href={link}>Read more <Image alt='' src={assets.right_arrow} className='w-4' /></a>
+                                    
 
                                 </div>
                             ))}

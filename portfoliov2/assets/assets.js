@@ -1,4 +1,3 @@
-import user_image from './user-image.png';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -15,7 +14,6 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -57,7 +55,6 @@ export const assets = {
     image9,
     un,
     un_dark,
-    user_image,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -74,7 +71,6 @@ export const assets = {
     logo_dark,
     mail_icon,
     mail_icon_dark,
-    profile_img,
     download_icon,
     hand_icon,
     header_bg_color,
@@ -124,8 +120,8 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.walmart, title: 'Walmart Electronic Service', description: 'Advised customers on electronic products and resolved technical issues, building expertise in technology and communication. Managed inventory and provided excellent customer service, skills now applied to software project management', link: '' },
-    { icon: assets.subway, title: 'Subway', description: 'Trained several new employees, ensuring they understood internal processes and tools. Developed strong leadership, communication, and organizational skills. Gained experience in mentoring and fostering collaboration in a fast-paced work environment.', link: '' },
+    { icon: assets.walmart, title: 'Walmart Electronic Service', description: 'Advised customers on electronic products and resolved technical issues, building expertise in technology and communication. Managed inventory and provided excellent customer service, skills now applied to software project management'},
+    { icon: assets.subway, title: 'Subway', description: 'Trained several new employees, ensuring they understood internal processes and tools. Developed strong leadership, communication, and organizational skills. Gained experience in mentoring and fostering collaboration in a fast-paced work environment.'},
 ]
 
 export const infoList = [
