@@ -39,9 +39,20 @@ import un from './un.png';
 import un_dark from './un-dark.png';
 import image3 from './image3.png';
 import image9 from './image9.png';
-
+import b1 from './b1.svg';
+import re from './re.svg';
+import walmart from './walmart.png';
+import excel from './excel.png';
+import python from './python.png';    
+import subway from './subway.png';
 
 export const assets = {
+    subway,
+    python,
+    excel,
+    walmart,
+    re,
+    b1,
     image3,
     image9,
     un,
@@ -87,40 +98,42 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Sonic Runner Game',
+        description: 'Recreated Sonic-inspired game, using JS, Kaplay library, Vanilla , and Vite for an efficient development workflow',
+        bgImage: '/sonic.png',
+        link: 'https://delta-refz.itch.io/sonicrunnergame'
     },
     {
         title: 'Geo based app',
         description: 'Mobile App',
         bgImage: '/work-2.png',
+        link: ''
     },
     {
         title: 'Photography site',
         description: 'Web Design',
         bgImage: '/work-3.png',
+        link: ''
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
         bgImage: '/work-4.png',
+        link: ''
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.walmart, title: 'Walmart Electronic Service', description: 'Advised customers on electronic products and resolved technical issues, building expertise in technology and communication. Managed inventory and provided excellent customer service, skills now applied to software project management', link: '' },
+    { icon: assets.subway, title: 'Subway', description: 'Trained several new employees, ensuring they understood internal processes and tools. Developed strong leadership, communication, and organizational skills. Gained experience in mentoring and fostering collaboration in a fast-paced work environment.', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Java, Python, SQL, JavaScript, React.Js, Next.Js, C' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Eng in Software Engineering' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.git,assets.excel, assets.python
 ];
