@@ -13,9 +13,9 @@ const
                         to apply my skills and gain experience in software development (Summer 2025)</p>
 
                     <div className='w-full flex justify-center'>
-                        <div className='grid grid-cols-2 gap-6 my-10 max-w-screen-xl mx-auto'>
+                        <div className='grid grid-cols-auto gap-6 my-10'>
                             {serviceData.map(({icon, title, description, link}, index) => (
-                                <div key={index}>
+                                <div key={index} className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500'>
                                     <Image src={icon} alt='' className='w-10 mx-auto'/>
                                     <h3 className='text-lg my-4 text-gray-700 text-center'>{title}</h3>
                                     <p className='text-sm text-gray-600 leading-5'>{description}</p>

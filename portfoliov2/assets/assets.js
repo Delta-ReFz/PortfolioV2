@@ -123,7 +123,7 @@ export const workData = [
 
 export const serviceData = [
     { icon: assets.walmart, title: 'Walmart Electronic Service', description: 'Advised customers on electronic products and resolved technical issues, building expertise in technology and communication. Managed inventory and provided excellent customer service, skills now applied to software project management'},
-    { icon: assets.subway, title: 'Subway', description: 'Trained several new employees, ensuring they understood internal processes and tools. Developed strong leadership, communication, and organizational skills. Gained experience in mentoring and fostering collaboration in a fast-paced work environment.'},
+    { icon: assets.subway, title: 'Subway', description: 'Trained and onboarded several new employees, ensuring they understood internal processes and tools. Developed strong leadership, communication, and organizational skills while maintaining high team performance. Gained experience in mentoring and fostering collaboration in a fast-paced work environment.'},
 ]
 
 export const infoList = [
