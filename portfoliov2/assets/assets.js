@@ -43,8 +43,10 @@ import walmart from './walmart.png';
 import excel from './excel.png';
 import python from './python.png';    
 import subway from './subway.png';
+import salary from './SalaryDashboard.png';
 
 export const assets = {
+    salary,
     subway,
     python,
     excel,
@@ -100,9 +102,9 @@ export const workData = [
         link: 'https://delta-refz.itch.io/sonicrunnergame'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Salary Dashboard',
+        description: 'Developed a salary dashboard using Excel.',
+        bgImage: '/SalaryDashboard.png',
         link: ''
     },
     {
