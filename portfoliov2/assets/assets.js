@@ -105,7 +105,7 @@ export const workData = [
         title: 'Salary Dashboard',
         description: 'Developed a salary dashboard using Excel.',
         bgImage: '/SalaryDashboard.png',
-        link: ''
+        link: 'https://github.com/Delta-ReFz/ExcelProjectDataAnalytics'
     },
     {
         title: 'Photography site',
