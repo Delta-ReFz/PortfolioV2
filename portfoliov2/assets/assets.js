@@ -109,7 +109,7 @@ export const workData = [
     },
     {
         title: 'EZ Shop',
-        description: 'MERN stack application',
+        description: 'MERN stack application to sell products',
         bgImage: '/productstore.png',
         link: 'https://mehdizshop.onrender.com'
     },
