@@ -43,10 +43,10 @@ import walmart from './walmart.png';
 import excel from './excel.png';
 import python from './python.png';    
 import subway from './subway.png';
-import salary from './SalaryDashboard.png';
+
 
 export const assets = {
-    salary,
+    
     subway,
     python,
     excel,
@@ -97,27 +97,27 @@ export const assets = {
 export const workData = [
     {
         title: 'Sonic Runner Game',
-        description: 'Recreated Sonic-inspired game, using JS, Kaplay library, Vanilla , and Vite for an efficient development workflow',
+        description: 'Using JS',
         bgImage: '/sonic.png',
         link: 'https://delta-refz.itch.io/sonicrunnergame'
     },
     {
         title: 'Salary Dashboard',
-        description: 'Developed a salary dashboard using Excel.',
+        description: 'Using Excel.',
         bgImage: '/SalaryDashboard.png',
         link: 'https://github.com/Delta-ReFz/ExcelProjectDataAnalytics'
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-        link: ''
+        title: 'EZ Shop',
+        description: 'MERN stack application',
+        bgImage: '/productstore.png',
+        link: 'https://mehdizshop.onrender.com'
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-        link: ''
+        title: 'DRZ Directry',
+        description: 'Managing startup projects',
+        bgImage: '/drz.png',
+        link: 'https://drz-directory.vercel.app/'
     },
 ]
 
