@@ -43,11 +43,9 @@ import walmart from './walmart.png';
 import excel from './excel.png';
 import python from './python.png';    
 import subway from './subway.png';
-import deux from './deux.png';
 
 
 export const assets = {
-    deux,
     subway,
     python,
     excel,

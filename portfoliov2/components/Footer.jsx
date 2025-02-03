@@ -18,7 +18,7 @@ const Footer = () => {
             <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                 {/* Blank sert a ouvrire un nouvel onglet*/}
                 <li><a target='_blank' href="https://github.com/delta-refz">GitHub</a></li>
-                <li><a target='_blank' href="https://linkedin.com/in/el-mehdi-oukid-9873b3334">LinkedIn</a></li>
+                <li><a target='_blank' href="https://www.linkedin.com/in/oukidelmehdi">LinkedIn</a></li>
             </ul>
         </div>
 
